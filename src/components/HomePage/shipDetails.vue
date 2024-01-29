@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
 
-    <div class="flex border border-white w-full">
+    <div class="flex w-full">
 
         <div class="flex flex-col pt-[400px]">
 
@@ -37,13 +37,13 @@ const props = defineProps({
             
                     <li class="flex items-center justify-between">
 
-                        <p class="mr-[110px] text-white">PAYLOAD TO LEO</p> <p class="font-roboto font-normal text-[18px] text-white leading-[32.34px]">{{item.PTLKG }} / <span class="font-roboto font-normal text-[18px] text-[#B2B0B2] leading-[32.34px]">{{ item.PTLLB}}</span></p>
+                        <p class="mr-[110px] text-white">PAYLOAD TO LEO</p> <p class="font-roboto font-normal text-[18px] text-white leading-[32.34px]">{{item.PTLKG }} / <span class="font-roboto font-normal text-[18px] text-[#B2B0B2] leading-[32.34px] w-[100px]">{{ item.PTLLB}}</span></p>
 
                     </li>
             
                     <li class="flex items-center justify-between">
 
-                        <p class="mr-[140px] text-white">PAYLOAD TO GTO</p> <p class="">{{item.GTOKG }} / <span class="font-roboto font-normal text-[18px] text-[#B2B0B2] leading-[32.34px]">{{ item.GTOLB}}</span></p>
+                        <p class="mr-[140px] text-white">PAYLOAD TO GTO</p> <p class="font-roboto font-normal text-[18px] text-white leading-[32.34px]">{{item.GTOKG }} / <span class="font-roboto font-normal text-[18px] text-[#B2B0B2] leading-[32.34px]">{{ item.GTOLB}}</span></p>
                 
                     </li>
 

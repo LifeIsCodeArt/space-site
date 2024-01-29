@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
     <li>
-    <RouterLink to="/">{{item.text}}</RouterLink>
+        <RouterLink :to='item.path'>{{item.text}}</RouterLink>
     </li>
 </template>
 

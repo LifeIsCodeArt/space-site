@@ -9,16 +9,19 @@ export const useHomeStore = defineStore('homeStore', () => {
 
         {
             id:1,
+            path:'/',
             text:'Falcon Heavy',
         },
 
         {
             id:2,
+            path:'/',
             text:'Falcon 9',
         },
 
         {
             id:3,
+            path:'/',
             text:'Dragon',
         },
 

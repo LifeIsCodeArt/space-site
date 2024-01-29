@@ -5,10 +5,13 @@ module.exports = {
     extend: {
       fontFamily: {
         cardo: ['Cardo', 'serif'],
-        roboto: ['Roboto', 'sans-serif']
+        roboto: ['Roboto', 'sans-serif'],
+        bellefair: ['Bellefair', 'serif']
       },
       backgroundImage: {
-        'homeImage': 'url(@/assets/images/homepage/home-planet.png)',
+        'mainImage': 'url(@/assets/images/homepage/home-planet.png)',
+        'aboutImage': 'url(https://www.nasa.gov/wp-content/uploads/2023/10/moon-and-mars.png?w=2048)',
+        'aboutImage2': 'url(@/assets/images/about/bg-about.png)',
       },
       plugins: [],
     }

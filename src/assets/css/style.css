@@ -681,12 +681,36 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.left-\[90px\] {
+  left: 90px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[10px\] {
+  top: 10px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-\[12\] {
+  z-index: 12;
 }
 
 .float-start {
@@ -733,6 +757,11 @@ video {
   clear: none;
 }
 
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -743,9 +772,34 @@ video {
   margin-bottom: 0px;
 }
 
+.my-\[24px\] {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .my-\[52px\] {
   margin-top: 52px;
   margin-bottom: 52px;
+}
+
+.mb-\[250px\] {
+  margin-bottom: 250px;
+}
+
+.mb-\[27px\] {
+  margin-bottom: 27px;
+}
+
+.mb-\[28px\] {
+  margin-bottom: 28px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
 }
 
 .mr-\[110px\] {
@@ -756,16 +810,24 @@ video {
   margin-right: 140px;
 }
 
+.mr-\[40px\] {
+  margin-right: 40px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mb-\[50px\] {
-  margin-bottom: 50px;
+.mt-\[15px\] {
+  margin-top: 15px;
 }
 
-.mb-\[153px\] {
-  margin-bottom: 153px;
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[43px\] {
+  margin-top: 43px;
 }
 
 .box-border {
@@ -875,16 +937,32 @@ video {
   display: none;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
-}
-
 .h-\[1006px\] {
   height: 1006px;
 }
 
+.h-\[17px\] {
+  height: 17px;
+}
+
 .h-auto {
   height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[138px\] {
+  width: 138px;
 }
 
 .w-\[1440px\] {
@@ -903,8 +981,16 @@ video {
   width: 300px;
 }
 
-.w-\[600px\] {
-  width: 600px;
+.w-\[450px\] {
+  width: 450px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[850px\] {
+  width: 850px;
 }
 
 .w-\[this-is\\\\\] {
@@ -919,24 +1005,8 @@ video {
   width: weird-and-invalid;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[420px\] {
-  width: 420px;
 }
 
 .flex-shrink {
@@ -1843,10 +1913,6 @@ video {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1905,9 +1971,9 @@ video {
   border-style: none;
 }
 
-.border-white {
+.border-green-200 {
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(187 247 208 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -1920,7 +1986,15 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-homeImage {
+.bg-aboutImage {
+  background-image: url(https://www.nasa.gov/wp-content/uploads/2023/10/moon-and-mars.png?w=2048);
+}
+
+.bg-aboutImage2 {
+  background-image: url(@/assets/images/about/bg-about.png);
+}
+
+.bg-mainImage {
   background-image: url(@/assets/images/homepage/home-planet.png);
 }
 
@@ -1942,6 +2016,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -2039,33 +2117,60 @@ video {
   padding-right: 104px;
 }
 
+.px-\[56px\] {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.px-\[87px\] {
+  padding-left: 87px;
+  padding-right: 87px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .py-\[54px\] {
   padding-top: 54px;
   padding-bottom: 54px;
 }
 
-.pt-\[50px\] {
-  padding-top: 50px;
+.pb-\[100px\] {
+  padding-bottom: 100px;
 }
 
-.pl-\[200px\] {
-  padding-left: 200px;
+.pb-\[300px\] {
+  padding-bottom: 300px;
 }
 
 .pl-\[150px\] {
   padding-left: 150px;
 }
 
-.pt-\[200px\] {
-  padding-top: 200px;
+.pr-\[105px\] {
+  padding-right: 105px;
+}
+
+.pt-\[22px\] {
+  padding-top: 22px;
 }
 
 .pt-\[400px\] {
   padding-top: 400px;
 }
 
-.pr-\[105px\] {
-  padding-right: 105px;
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pt-\[83px\] {
+  padding-top: 83px;
 }
 
 .text-left {
@@ -2124,12 +2229,20 @@ video {
   vertical-align: super;
 }
 
+.font-bellefair {
+  font-family: Bellefair, serif;
+}
+
 .font-roboto {
   font-family: Roboto, sans-serif;
 }
 
 .text-\[12px\] {
   font-size: 12px;
+}
+
+.text-\[150px\] {
+  font-size: 150px;
 }
 
 .text-\[16px\] {
@@ -2142,6 +2255,18 @@ video {
 
 .text-\[24px\] {
   font-size: 24px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
 }
 
 .text-\[64px\] {
@@ -2236,8 +2361,16 @@ video {
   line-height: 32.34px;
 }
 
+.leading-\[32px\] {
+  line-height: 32px;
+}
+
 .leading-\[33\.6px\] {
   line-height: 33.6px;
+}
+
+.leading-\[4\.725px\] {
+  line-height: 4.725px;
 }
 
 .leading-normal {
@@ -2248,14 +2381,34 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
+.text-\[\#808080\] {
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity));
+}
+
 .text-\[\#B2B0B2\] {
   --tw-text-opacity: 1;
   color: rgb(178 176 178 / var(--tw-text-opacity));
 }
 
+.text-\[\#D0D6F9\] {
+  --tw-text-opacity: 1;
+  color: rgb(208 214 249 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-green-200 {
+  --tw-text-opacity: 1;
+  color: rgb(187 247 208 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -2307,6 +2460,10 @@ video {
 .subpixel-antialiased {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .bg-blend-normal {
@@ -2640,6 +2797,18 @@ video {
   }
 }
 
+.hover\:left-\[-90px\]:hover {
+  left: -90px;
+}
+
+.hover\:top-\[-10px\]:hover {
+  top: -10px;
+}
+
+.hover\:z-\[1\]:hover {
+  z-index: 1;
+}
+
 .hover\:border-b:hover {
   border-bottom-width: 1px;
 }
@@ -2660,6 +2829,10 @@ video {
 
 .hover\:duration-1000:hover {
   transition-duration: 1000ms;
+}
+
+.hover\:ease-in-out:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .before\:hover\:text-center:hover::before {

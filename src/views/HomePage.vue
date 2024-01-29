@@ -16,7 +16,7 @@
 
 <template>
 
-    <div class="w-[1440px] h-[1000px] my-0 mx-auto bg-black pt-[50px]">
+    <div class="w-[1440px] h-auto my-0 mx-auto bg-black pt-[50px]">
 
 
 
@@ -34,6 +34,7 @@
 
                 <ListItem v-for="item in headerList" :item="item" :key="item.id"
                           class="text-white font-roboto text-[12px] font-normal"
+                          :class="item.id === activeShip ? 'border-b border-green-200 text-green-200' : 'border-none'"
                           @click="activeShip = item.id"
                 />
 
@@ -41,15 +42,13 @@
 
         </div>
         
-        <div class="bg-homeImage h-[1006px]"/>
+        <div class="bg-mainImage h-[1006px]"/>
 
-        <div class="flex bg-black items-center pl-[150px] pr-[105px] mb-[153px]">
+        <div class="flex bg-black items-center pl-[150px] pr-[105px]">
 
             <shipDetails  v-for="item in shipDetailsList" :key="item.id" :item="item" :class="item.id === activeShip ? 'block' : 'hidden'"/>
 
         </div>
-
-
 
     </div>
 
